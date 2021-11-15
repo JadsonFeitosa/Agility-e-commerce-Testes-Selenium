@@ -1,3 +1,4 @@
+package Testes;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +21,11 @@ public class Comando {
 	public void escrever(By by, String texto){
 		driver.findElement(by).clear();
 		driver.findElement(by).sendKeys(texto);
+	}
+
+	public void escreverXPath(String xPath, String texto){
+		driver.findElement(By.xpath(xPath)).clear();
+		driver.findElement(By.xpath(xPath)).sendKeys(texto);
 	}
 
 	public void escrever(String id_campo, String texto){
