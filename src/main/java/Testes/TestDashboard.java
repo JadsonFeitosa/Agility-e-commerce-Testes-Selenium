@@ -43,18 +43,44 @@ public class TestDashboard {
 		Thread.sleep(500);
 		driver.findElement(By.xpath("/html/body/div[4]/ul/li[1]/a/span[2]")).click();
 
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[6]/div/div/label")).click();
+
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[7]/div[1]/div/div/div/canvas")).click();
+
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[8]/div/label")).click();
+
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[10]/div[1]/div/div/div/canvas")).click();
+		
+
 		Thread.sleep(4000);
 	}
 	
 	@Test
 	public void listarDataPorUltimos15DiasDashbordTest() throws InterruptedException {
-		Thread.sleep(1000);
-		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[1]/div/button[2]")).click();
-		
-		Thread.sleep(500);
-		driver.findElement(By.xpath("/html/body/div[4]/ul/li[2]/a/span[2]")).click();
+	Thread.sleep(1000);
+	driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[1]/div/button[2]")).click();
+	
+	Thread.sleep(500);
+	driver.findElement(By.xpath("/html/body/div[4]/ul/li[2]/a/span[2]")).click();
 
-		Thread.sleep(4000);
+	Thread.sleep(500);
+	driver.findElement(By.xpath("/html/body/div[1]/div/div[6]/div/div/label")).click();
+
+	Thread.sleep(500);
+	driver.findElement(By.xpath("/html/body/div[1]/div/div[7]/div[1]/div/div/div/canvas")).click();
+
+	Thread.sleep(500);
+	driver.findElement(By.xpath("/html/body/div[1]/div/div[8]/div/label")).click();
+
+	Thread.sleep(500);
+	driver.findElement(By.xpath("/html/body/div[1]/div/div[10]/div[1]/div/div/div/canvas")).click();
+	
+
+	Thread.sleep(4000);
 	}
 	
 	@Test
@@ -65,158 +91,231 @@ public class TestDashboard {
 		Thread.sleep(500);
 		driver.findElement(By.xpath("/html/body/div[4]/ul/li[3]/a/span[2]")).click();
 
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[6]/div/div/label")).click();
+
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[7]/div[1]/div/div/div/canvas")).click();
+
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[8]/div/label")).click();
+
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[10]/div[1]/div/div/div/canvas")).click();
+		
+
 		Thread.sleep(4000);
 	}
 	
 	
 	
-//	
-//	@Test
-//	public void listarPorCampoDataDashbordTest() throws InterruptedException {
-//		
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys("22/12/2011");
-//
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys("13/01/2020");
-//		
-//		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[3]")).click();
-//		
-//		Thread.sleep(500);
-//		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
-//
-//		Thread.sleep(4000);
-//		
-//	}
-//	
-//	@Test
-//	public void listarPorCampoDataInvalidaDashbordTest() throws InterruptedException {
-//		
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_inicial']")).sendKeys("22/12/2011");
-//
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys(Keys.BACK_SPACE);
-//		driver.findElement(By.xpath("//*[@name='dt_final']")).sendKeys("13/01/2020");
-//		
-//		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[3]")).click();
-//		
-//		Thread.sleep(500);
-//		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
-//
-//		Thread.sleep(4000);
-//		
-//	}
-//	
-//	
-//	@Test
-//	public void listarPorComponenteDataDashbordTest() throws InterruptedException {
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@class='p-button-icon p-c pi pi-calendar']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[3]/td[2]/span")).click();
-//		driver.findElement(By.xpath("//*[@class='p-fluid p-grid p-formgrid p-col-12']")).click();
-//		Thread.sleep(1000);
-//		
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@class='p-button-icon p-c pi pi-calendar']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[3]/td[2]/span")).click();
-//		driver.findElement(By.xpath("//*[@class='p-fluid p-grid p-formgrid p-col-12']")).click();
-//		Thread.sleep(1000);
-//		
-//		
-//		Thread.sleep(500);
-//		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
-//		
-//		Thread.sleep(4000);
-//		
-//	}
-//	
-//	@Test
-//	public void listarPorComponenteInvalidoDataDashbordTest() throws InterruptedException {
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@class='p-button-icon p-c pi pi-calendar']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[3]/td[2]/span")).click();
-//		driver.findElement(By.xpath("//*[@class='p-fluid p-grid p-formgrid p-col-12']")).click();
-//		Thread.sleep(1000);
-//		
-//		Thread.sleep(1000);
-//		driver.findElement(By.xpath("//*[@class='p-button-icon p-c pi pi-calendar']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("//*[@class='p-datepicker-prev p-link']")).click();
-//		Thread.sleep(100);
-//		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[3]/td[2]/span")).click();
-//		driver.findElement(By.xpath("//*[@class='p-fluid p-grid p-formgrid p-col-12']")).click();
-//		Thread.sleep(1000);
-//		
-//		Thread.sleep(500);
-//		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
-//		
-//		Thread.sleep(4000);
-//		
-//	}
+	
+	@Test
+	public void listarPorCampoDataDashbordTest() throws InterruptedException {
+
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[1]/span/span[1]/span[1]/input")).click();
+
+		
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys("01/10/2021");
+		Thread.sleep(300);
+
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/button")).click();
+
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys("01/12/2021");
+		Thread.sleep(300);
+
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/button")).click();
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
+
+		Thread.sleep(4000);
+		
+	}
+	
+	@Test
+	public void listarPorCampoDataInvalidaDashbordTest() throws InterruptedException {
+		
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[1]/span/span[1]/span[1]/input")).click();
+
+		
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/input")).sendKeys("22/12/2011");
+		Thread.sleep(300);
+
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/button")).click();
+
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys(Keys.BACK_SPACE);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/input")).sendKeys("01/02/2015");
+		Thread.sleep(300);
+
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/button")).click();
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
+
+		Thread.sleep(4000);
+		
+	}
+	
+	
+	@Test
+	public void listarPorComponenteDataDashbordTest() throws InterruptedException {
+		
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[1]/span/span[1]/span[1]/input")).click();
+		
+		Thread.sleep(300);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/button")).click();
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[3]/td[2]/span")).click();
+		Thread.sleep(1000);
+		
+		Thread.sleep(300);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/button")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[2]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[2]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[2]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[2]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[4]/td[6]/span")).click();
+		Thread.sleep(1000);
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
+		
+		Thread.sleep(4000);
+		
+	}
+	
+	@Test
+	public void listarPorComponenteInvalidoDataDashbordTest() throws InterruptedException {
+	
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[1]/span/span[1]/span[1]/input")).click();
+		
+		Thread.sleep(300);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/span/button")).click();
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[3]/td[2]/span")).click();
+		Thread.sleep(1000);
+		
+		Thread.sleep(300);
+		driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[2]/div[2]/div[3]/span/button")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[1]/button[1]")).click();
+		Thread.sleep(500);
+		Thread.sleep(500);
+		driver.findElement(By.xpath("/html/body/div[4]/div/div/div[2]/table/tbody/tr[4]/td[6]/span")).click();
+		Thread.sleep(1000);
+		
+		Thread.sleep(500);
+		driver.findElement(By.xpath("//*[@name='Filtrar']")).click();
+		
+		Thread.sleep(4000);
+		
+	}
 
 }
